@@ -28,6 +28,11 @@ for (let i = 0; i < array.length; i++) {
     console.log("Array: " + array[i]);
     console.log("Array2: " + array2[i]);
 }
+
+//crear dos arrays con el mismo contenido y comparar con "==" si ambos arrays son iguales
+
+//ahora comparar el contenido de dichos arrays utilizando un bucle
+
 // crear un objeto "usuario", con tres propiedades
 var coche = new Object;
 coche.marca = "Maserati";
@@ -43,6 +48,9 @@ var h1 = 12;
 var h2 = 3;
 h1 += h2;
 console.log("Suma: " + h1);
+
+//incrementar una variable con otra variable o número con el operador  +=, mostrar por pantalla la primera variable (la incrementada)
+
 //eleva un número a otro utilizando **
 console.log("Elevado: " + h1**h2);
 //eleva un número a otro utilizando un bucle
